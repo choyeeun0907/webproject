@@ -1,0 +1,347 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+
+    * {
+    box-sizing: border-box;
+    }
+
+    body {
+    margin: 0;
+    width: 1280px;
+    font-family: 'Noto Sans KR', sans-serif;
+    }
+
+    /* 네비게이션바 */
+    .navibar{
+    height:134px;
+    padding-left:5px;
+    padding-right:5px;
+    }
+
+    .navibar #logo img{
+    vertical-align: middle;
+    margin-top: 36px;
+    }
+
+    .navibar #menu{
+    float:right;
+    list-style:none;
+    padding:0;
+    margin:0;
+    line-height: 134px;
+    vertical-align: middle;
+
+    }
+    .navibar #menu li{
+    float:left;
+    margin-left:30px;
+    line-height:134px;
+    }
+
+    .navibar #menu li a {
+    color:#575757;
+    font-size:20px;
+    text-decoration:none;
+    font-weight:bold;
+    }
+
+    .navibar #menu li a:hover {
+    color:#356FAB;
+    font-size:20px;
+    text-decoration:none;
+    font-weight:bold;
+    }
+
+    hr {
+        width: 1280px;
+        color: #BEBEBE;
+        
+    }
+
+    /*아티스트이미지*/
+
+   .artists {
+        display: inline-block;
+        float: left;
+        padding-top: 22px;
+
+   }
+   
+    .artist-list{
+        width:1280px;
+        margin-left:0px;
+        margin-right:0px;
+    }
+
+    .artist1 {
+        text-align:center;
+        display:block;
+        float:left;
+        padding-right: 23px;
+    }
+
+  
+
+    .imgmargin {
+        margin-left: 23px;
+        margin-right: 23px;
+    }
+
+    .artist3 {
+        text-align:center;
+        width:197px;
+        display:block;
+        float:left;
+    }
+
+
+    /*아티스트 디테일 설명*/
+
+    .artistdetail1
+    {
+        display: inline-block;
+        float: left;
+     
+    }
+
+    .art_detail1{
+        width: 305px;
+        float: left;
+        line-height: 280px;
+        margin-right: 63px;
+        margin-top: 36px;
+        margin-bottom: 36px;
+    }
+
+    .art_detail2 {
+        width: 385px;
+        float: left;
+        margin-right: 63px;
+        margin-top: 12px;
+    }
+
+    .art_detail3{
+        width: 464px;
+        float: left;
+        text-decoration: none;
+        margin;
+        margin-top: 10px;
+    }
+
+    .name {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    /*앨범*/
+
+    .art_detail3 {
+        padding-top: 4px;
+    }
+    
+    .artists1 {
+        display: inline-block;
+        float: left;
+        margin-top: 28px;
+        margin-bottom: 28px;
+   }
+
+   .artists2 {
+        display: inline-block;
+        float: left;
+        margin-top: 28px;
+        margin-bottom: 0px;
+   }
+
+   .artist1 {
+        text-align:center;
+        width:134px;
+        display:block;
+        float:left;
+    }
+
+    .mid {
+        margin-left: 31px;
+        margin-right: 31px;
+    }
+
+    .more {
+        text-decoration: none;
+        color: #B6B6B6;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+    /*푸터*/
+
+    .footer
+    {
+        display: inline-block;
+        float: left;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        background-color: #F1F1F1;
+    }
+
+    .footerlogo{
+        width: 127px;
+        height: 172px;
+        float: left;
+        line-height: 172px;
+        padding-left:5px;
+        padding-top: 49px;
+    }
+
+    .footertext {
+        width: 1025px;
+        height: 172px;
+        float: left;
+        text-align: center;
+    }
+
+    .footersns{
+        width: 127px;
+        height: 62px;
+        float: left;
+        text-decoration: none;
+        padding-right:5px;
+        padding-top: 90px;
+    }
+
+    .brandname {
+        font-size: 14px;
+        color: #575757;
+        margin-bottom: 5px;
+    }
+
+    .ad {
+        font-size: 16px;
+        color: #B6B6B6;
+    }
+    .copy {
+        font-size: 16px;
+        color: #B6B6B6;
+        font-weight: bold;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="navibar">
+        <a href="index.html" id="logo">
+          <img src ="./source/bluelogo.png" height="62">
+        </a>
+        
+        <ul id="menu">
+          <li><a href="artist.html">ARTIST</a></li>
+          <li><a href="#">SONG</a></li>
+          <li><a href="#">NEWS</a></li>
+          <li><a href="#">MAP</a></li>
+        </ul>
+      </div>
+
+      <div class="artists">
+          <img src="./source/백예린프로필상세2.png" width="1280">
+      </div>
+    
+      <div class="artistdetail1">
+        <div class="art_detail1">
+            <img src="./source/흑백프로필.png" alt="logo">
+        </div>
+
+        <div class="art_detail2">
+            <p class="name">백예린 (Baek Yerin)</p>
+            <a href="https://www.instagram.com/yerin_the_genuine/">
+                <img src="./source/인스타.png" width="25">
+            </a>
+            <a href="https://www.youtube.com/YerinBaekOfficial">
+                <img src="./source/유튜브.png" width="25">
+            </a>
+            <a href="https://twitter.com/yerinbaek">
+                <img src="./source/트위터.png" width="25">
+            </a>
+            <br>
+            <p class="inf">출생 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1997.06.26</p>
+            <p class="inf">국적 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;대한민국</p>
+            <p class="inf">신체 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;165cm, 45kg, B형</p>
+            <p class="inf">데뷔 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2012.10.07 그룹 15& 디지털싱글 [I Dream]</p>
+            <p class="inf">소속그룹&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Volunteers</p>
+        </div>
+       
+        <div class="art_detail3">
+            <div class="art_detail3">
+                <span class="name">앨범</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#" class="more">더보기</a>
+                <br>
+                <div class="artists1">
+                    <div class="artist-list">
+                      <a href="artistdetail.html" class="artist_a">
+                        <img src="./source/1.png" width="134">
+                      </a>
+                    
+                      <a href="#" class="artist_a mid">
+                        <img src="./source/2.png" width="134">
+                      </a>
+                    
+                      <a href="#" class="artist">
+                        <img src="./source/3.png" width="134">
+                      </a>
+                    </div>
+                </div>
+
+                <div class="artist2">
+                    <div class="artist-list">
+                      <a href="artistdetail.html" class="artist1">
+                        <img src="./source/4.png" width="134">
+                      </a>
+                    
+                      <a href="#" class="artist1 mid">
+                        <img src="./source/5.png" width="134">
+                      </a>
+                    
+                      <a href="#" class="artist1">
+                        <img src="./source/6.png" width="134">
+                      </a>
+                    </div>
+                </div>
+          </div>  
+        </div>
+
+   
+      <div class="footer">
+        <div class="footerlogo">
+            <img src="./source/graylogo.png" alt="logo">
+        </div>
+
+        <div class="footertext">
+            <p class="ad">서울특별시 마포구 성지길 35 (합정동) 지층 (02071)</p>
+            <p class="ad">35, Seongji-gil, Mapo-gu, Seoul, Republic of Korea</p>
+            <p class="ad">블루바이닐의 모든 컨텐츠는 저작권의 보호를 받고 있습니다.</p>
+            <p class="copy">Copyright ⓒ BLUE VINYL all rights Reserved.</p>
+        </div>
+       
+        <div class="footersns">
+            <p class="brandname">BLUE VINYL</p>
+            <a href="https://www.instagram.com/bluevinyl.official/">
+                <img src="./source/인스타.png" height="25">
+              </a>
+               <a href="https://www.youtube.com/channel/UCYoNPLKd1kXh4v3bvIx1pTA">
+                <img src="./source/유튜브.png" height="25">
+              </a>
+               <a href="https://www.facebook.com//bluevinylneedle">
+                <img src="./source/페이스북.png" height="25">
+              <a href="https://twitter.com/_bvofficial">
+               <img src="./source/트위터.png" height="25">
+              </a>
+        </div>
+              
+      </div>
+</body>
+</html>
